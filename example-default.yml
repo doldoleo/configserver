@@ -1,0 +1,4 @@
+#example-default.yml
+example:
+  name: defaultName
+  type: default
