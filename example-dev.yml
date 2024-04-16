@@ -1,0 +1,4 @@
+#example-dev.yml
+example:
+  name: devName
+  type: dev
