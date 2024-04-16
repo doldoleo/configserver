@@ -1,0 +1,18 @@
+{
+    "name": "config-client",
+    "profiles": [
+        "default"
+    ],
+    "label": null,
+    "version": "6a58c32ae4669ddcd514a2cd0bb6c8fc04063683",
+    "state": null,
+    "propertySources": [
+        {
+            "name": "https://github.com/ggamzang/config.git/config-client.yml",
+            "source": {
+                "server.port": 8080,
+                "my.value": "config client"
+            }
+        }
+    ]
+}
