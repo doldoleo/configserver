@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: config-server-with-kafka
+  namespace: pilot
+  labels:
+    app: config-server-with-kafka
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: config-server-with-kafka
+  template:
+    metadata:
+      labels:
+        app: config-server-with-kafka
+    spec:
+      containers:
+      - name: config-server-with-kafka
+        image: doldoleo/config-server-with-kafka:latest
+        ports:
+        - containerPort: 10000
