@@ -61,7 +61,7 @@ spring:
             timeout: 5 #5초
   kafka:
     bootstrap-servers: 192.168.0.101:32100 # kafka 서버 주소:포트
-            
+             
 ---
 spring:
   config:
