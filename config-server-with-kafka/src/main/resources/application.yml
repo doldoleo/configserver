@@ -15,8 +15,6 @@ spring:
          enabled: true
        env:
          enabled: true          
-  kafka:
-    bootstrap-servers: 192.168.0.101:29092 # kafka 서버 주소:포트
 
 management:
   info:
@@ -60,6 +58,9 @@ spring:
             password: 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
             basedir: D:/kafka/git/repo
             timeout: 5 #5초
+  kafka:
+    bootstrap-servers: 192.168.0.101:29092 # kafka 서버 주소:포트
+            
 ---
 spring:
   config:
@@ -86,3 +87,6 @@ spring:
             password: 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
             basedir: /home/wasadmin/config-kafka/config-server/git/repo
             timeout: 5 #5초
+  kafka:
+    bootstrap-servers: my-cluster-kafka-bootstrap:9092 # kafka 서버 주소:포트
+            
