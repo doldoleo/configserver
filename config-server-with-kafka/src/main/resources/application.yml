@@ -52,6 +52,7 @@ spring:
             force-pull: true
             search-paths:
               - spring-cloud-gateway/**/resources
+              - swagger-gateway/**/resources
               #- '*/**'
             default-label: master
             username: doldoleo
@@ -82,6 +83,7 @@ spring:
             force-pull: true
             search-paths: 
               - spring-cloud-gateway/**/resources
+              - swagger-gateway/**/resources
             default-label: master
             username: doldoleo
             password: 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
