@@ -59,7 +59,7 @@ spring:
             basedir: D:/kafka/git/repo
             timeout: 5 #5초
   kafka:
-    bootstrap-servers: 192.168.0.101:29092 # kafka 서버 주소:포트
+    bootstrap-servers: 192.168.0.101:32100 # kafka 서버 주소:포트
             
 ---
 spring:
